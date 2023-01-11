@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 10px;
+        }
+        
+        form {
+            border: red solid 3px;
+            background-color: rgba(255, 0, 0, 0.342);
+        }
+        
+        div {
+            border: blue solid 3px;
+            background-color: rgba(0, 89, 255, 0.29);
+        }
+        
+        p {
+            border: yellow solid 3px;
+            background-color: rgba(252, 252, 0, 0.404);
+        }
+    </style>
+</head>
+
+<body>
+    <form onclick="alert('Grandpa')">Grandpa
+        <div onclick="alert('Father')">Father
+            <p onclick="alert('Child')">Child</p>
+        </div>
+    </form>
+
+
+</body>
+
+</html>
